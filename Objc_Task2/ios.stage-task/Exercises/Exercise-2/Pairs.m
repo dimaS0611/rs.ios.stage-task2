@@ -9,7 +9,7 @@
     {
         for(int j = 0; j < [array count]; j++)
         {
-            if(([[array objectAtIndex:i] intValue] - [[array objectAtIndex:j] intValue]) == [number intValue]) {
+            if(([[array objectAtIndex:j] intValue] - [[array objectAtIndex:i] intValue]) == [number intValue]) {
                 counter++;
             }
         }
